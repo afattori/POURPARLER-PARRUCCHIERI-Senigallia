@@ -28,4 +28,4 @@
 @media(min-width:760px){.nav-links{font-size:14px}.hero-orb{right:7%;width:min(38vw,520px)}.instagram-section{grid-template-columns:1fr 1fr;align-items:center;padding:110px 8vw}.instagram-copy .section-label{margin-bottom:70px}.detail span{font-size:13px}.detail p{font-size:18px}.detail a{font-size:15px}}
 .inline-icon{width:19px;height:19px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 @media(min-width:760px){.nav-shell{padding-left:8vw;padding-right:8vw}}
-@media(min-width:1024px){.nav-shell>.brand{margin-left:clamp(36px,4vw,76px)}}
+@media(min-width:760px){.nav-shell>.brand{margin-left:clamp(44px,6vw,96px)}}
