@@ -37,14 +37,14 @@ export default function Home() {
 
       <section className="intro" id="servizi">
         <div className="section-label"><span>01</span> Il nostro mestiere</div>
-        <div className="intro-copy"><p className="eyebrow">Specialisti, prima di tutto</p><h2>Non seguiamo soltanto le tendenze.<br /><em>Le rendiamo tue.</em></h2></div>
+        <div className="intro-copy"><p className="eyebrow">Specialisti, prima di tutto</p><h2>Ogni capello ha una storia.<br /><em>Le diamo la forma giusta.</em></h2></div>
         <div className="services-grid">
           {services.map((service) => <article className="service-card" key={service.n}><span className="service-number">{service.n}</span><Sparkles size={19} /><h3>{service.title}</h3><p>{service.text}</p><a href="tel:+390717923619" aria-label={`Prenota ${service.title}`}>Parliamone <ArrowUpRight size={15} /></a></article>)}
         </div>
       </section>
 
       <section className="studio" id="studio">
-        <div className="studio-art" aria-label="Il segno distintivo PourParler"><div className="brand-sphere"><span /><span /></div><img src="/logo-full.png" alt="PourParler Parrucchieri" /></div>
+        <div className="studio-art"><img className="studio-photo" src="/capelli-castani.png" alt="Capelli castani mossi con sfumature luminose realizzati da PourParler" /></div>
         <div className="studio-copy"><div className="section-label light"><span>02</span> Il nostro modo</div><p className="eyebrow">Competenza con carattere</p><h2>Un salone dove sentirsi <em>ascoltati.</em></h2><p>La tecnica è il nostro punto di partenza. Il dialogo, l’aggiornamento costante e l’attenzione per chi abbiamo davanti sono ciò che rende ogni risultato davvero personale.</p><div className="values"><span>Esperienza</span><span>Ricerca</span><span>Gentilezza</span></div></div>
       </section>
 
@@ -52,6 +52,11 @@ export default function Home() {
         <div className="review-heading"><div className="section-label"><span>03</span> Dicono di noi</div><div><div className="big-rating">4,8 <span>/ 5</span></div><p><Star size={16} fill="currentColor" /> 46 recensioni su Google</p></div></div>
         <div className="review-grid">{reviews.map((review) => <blockquote key={review.text}><Quote size={24} /><p>“{review.text}”</p><footer>{review.label}</footer></blockquote>)}</div>
         <a className="text-link review-link" href="https://maps.app.goo.gl/mkHhGCmcYSf3s9q58" target="_blank" rel="noreferrer">Leggi tutte le recensioni <ArrowUpRight size={17} /></a>
+      </section>
+
+      <section className="instagram-section" aria-labelledby="instagram-title">
+        <div className="instagram-copy"><div className="section-label light"><span>04</span> Dal salone</div><p className="eyebrow">Seguici su Instagram</p><h2 id="instagram-title">Colore, ispirazione<br />e vita di <em>salone.</em></h2><p>Scopri gli ultimi lavori e lasciati ispirare dal mondo PourParler.</p><a className="primary-button pale" href="https://www.instagram.com/pourparler.senigallia/" target="_blank" rel="noreferrer"><Camera size={18} /> Vai al profilo</a></div>
+        <div className="instagram-embed"><iframe src="https://www.instagram.com/p/DYpS4Q_jDOq/embed/" title="Post Instagram di PourParler Parrucchieri" loading="lazy" allowFullScreen></iframe><div className="embed-mask" aria-hidden="true"></div></div>
       </section>
 
       <section className="contact" id="contatti">
