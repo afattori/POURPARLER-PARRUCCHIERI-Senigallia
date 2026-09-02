@@ -36,7 +36,10 @@ export default function Home() {
       </section>
 
       <section className="studio about" id="chi-siamo">
-        <div className="studio-copy"><div className="section-label light">Chi siamo</div><p className="eyebrow">Il nostro modo</p><h2>Un salone dove sentirsi <em>ascoltati.</em></h2><p>La tecnica è il nostro punto di partenza. Il dialogo, l’aggiornamento costante e l’attenzione per chi abbiamo davanti sono ciò che rende ogni risultato davvero personale.</p><div className="values"><span>Esperienza</span><span>Ricerca</span><span>Gentilezza</span></div></div>
+        <div className="about-inner">
+          <div className="studio-copy"><div className="section-label light">Chi siamo</div><p className="eyebrow">Il nostro modo</p><h2>Un salone dove sentirsi <em>ascoltati.</em></h2><p>La tecnica è il nostro punto di partenza. Il dialogo, l’aggiornamento costante e l’attenzione per chi abbiamo davanti sono ciò che rende ogni risultato davvero personale.</p><div className="values"><span>Esperienza</span><span>Ricerca</span><span>Gentilezza</span></div></div>
+          <div className="instagram-embed about-instagram"><iframe src="https://www.instagram.com/p/DYpS4Q_jDOq/embed/?img_index=1" title="Post Instagram di PourParler Parrucchieri" loading="lazy" allowFullScreen></iframe><div className="embed-mask" aria-hidden="true"></div></div>
+        </div>
       </section>
 
       <section className="intro" id="servizi">
