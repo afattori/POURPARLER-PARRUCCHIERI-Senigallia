@@ -27,6 +27,7 @@
 .embed-mask{position:absolute;z-index:2;left:0;right:0;bottom:0;height:70px;background:linear-gradient(to bottom,rgba(255,255,255,0),#fff 45%);pointer-events:none}
 @media(min-width:760px){.nav-links{font-size:14px}.hero-orb{right:7%;width:min(38vw,520px)}.instagram-section{grid-template-columns:1fr 1fr;align-items:center;padding:110px 8vw}.instagram-copy .section-label{margin-bottom:70px}.detail span{font-size:13px}.detail p{font-size:18px}.detail a{font-size:15px}}
 .inline-icon{width:19px;height:19px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-@media(min-width:760px){.nav-shell{padding-left:8vw;padding-right:8vw}}
-@media(min-width:760px){.nav-shell>.brand{margin-left:clamp(44px,6vw,96px)}}
-@media(min-width:1024px){.nav-shell>.brand{margin-left:clamp(150px,13vw,250px)}}
+.about{display:block;min-height:0}.about .studio-copy{max-width:1180px;margin:0 auto}
+.salon-section{scroll-margin-top:0}.salon-feature{display:grid;background:var(--wine);color:#fff}.salon-feature .instagram-copy{padding:70px 20px 80px}.salon-feature .instagram-copy .section-label{margin-bottom:48px}.salon-reviews{background:var(--paper);color:var(--ink)}
+#chi-siamo,#servizi,#contatti{scroll-margin-top:0}
+@media(min-width:760px){.nav-shell{justify-content:flex-start;padding-left:3vw;padding-right:3vw}.nav-shell>.brand{margin-left:0}.nav-links{margin-left:clamp(34px,4.5vw,76px)}.nav-cta{margin-left:auto}.about .studio-copy{padding-left:8vw;padding-right:8vw}.salon-feature{grid-template-columns:1fr 1fr;min-height:680px}.salon-feature .studio-art{height:auto}.salon-feature .instagram-copy{padding:90px 7vw;display:flex;flex-direction:column;justify-content:center}}
